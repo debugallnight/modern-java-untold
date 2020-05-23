@@ -7,7 +7,7 @@
          <wildcard>true</wildcard>
       </configuration>
     <mapping map-id="mockMapId" wildcard="true">
-        <class-a>gov.hrsa.nextgen.common.util.MockSource</class-a>
-        <class-b>gov.hrsa.nextgen.common.util.MockTarget</class-b>
+        <class-a>MockSource</class-a>
+        <class-b>MockTarget</class-b>
     </mapping>
  </mappings>
