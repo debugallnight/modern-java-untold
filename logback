@@ -14,7 +14,7 @@
     		<File>logs/party-service-core.log</File>
     		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
     		    <!-- daily rollover -->
-    			<FileNamePattern>logs/party-service-core-%d{yyyy-MM-dd}.log</FileNamePattern>
+    			<FileNamePattern>logs/my-core-%d{yyyy-MM-dd}.log</FileNamePattern>
 
     			<!-- keep 30 days' worth of history -->
     			<!--  
