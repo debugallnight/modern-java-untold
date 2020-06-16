@@ -1,0 +1,15 @@
+
+/**
+ * Wrapper class to encapsulate and extend the functionalities of the Mapping API
+ *
+ 
+ 
+ /**
+ * Intercepts exceptions thrown globally in controllers of core services. This implementation does not have any handling
+ * of restclient or resttemplate calls
+ * 
+ * <p>
+ * This handler is meant for core services. It has no specific handling for situations where it needs to make external
+ * communications, that most API level services require.
+ * </p>
+ *
